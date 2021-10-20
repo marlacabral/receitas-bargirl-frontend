@@ -1,0 +1,21 @@
+header{
+    margin-bottom: 30px;
+    background: linear-gradient(to left, #9F66FF, #DFCBFF);
+    padding: .3rem;
+    border-radius: 25px;
+    border:0;
+    cursor:pointer;
+    font-weight: 700; 
+    display: flex;  
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+
+}
+
+.header-item{
+    color: white;
+    text-decoration: none;
+}
