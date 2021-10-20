@@ -16,7 +16,7 @@ const DrinkCard = (props) => {
           
 
           <h3>{drink.name}</h3>
-          <h4>Priority: {drink.priority}</h4>
+          <h4>Status: {drink.status}</h4>
 
           <Link to={`/view/${drink._id}`} ><button className="open" type="submit">Open</button>
           </Link>
