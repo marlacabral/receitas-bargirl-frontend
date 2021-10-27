@@ -8,7 +8,7 @@ const DrinkCard = (props) => {
   const drink = props.data;
   return (
     <main className='cards'>
-      <section className="card contact">
+      <section className="card">
 
           <div className="img">
             <img src={drink.image}/>

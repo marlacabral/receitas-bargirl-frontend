@@ -1,8 +1,8 @@
 header{
     margin-bottom: 30px;
     background: linear-gradient(to left, #9F66FF, #DFCBFF);
-    padding: .3rem;
-    border-radius: 25px;
+    padding: 10px;
+    border-radius: 100px;
     border:0;
     cursor:pointer;
     font-weight: 700; 
@@ -12,10 +12,16 @@ header{
     top: 0;
     right: 0;
     width: 300px;
-
 }
 
 .header-item{
     color: white;
     text-decoration: none;
+}
+
+@media screen and (max-width: 400px) and (orientation:portrait){
+    header{
+        width: 100px
+    }
+
 }

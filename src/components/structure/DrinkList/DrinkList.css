@@ -1,12 +1,51 @@
 .list{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    width: 60%;
-    display: flex;
+    width: 800px;
     align-content: center;
     justify-content: space-around;
     padding: 50px;
-    margin-left: 15%;
+    margin-left: 200px;
     
+    
+}
+@media screen and (max-width:400px) and (orientation:portrait) {
+    .list{
+        width:400px;
+        height: 400px;
+        margin: 100px 20px;
+        padding: 0px;
+        display: flex;
+        flex-direction: wrap;
+        
+    }
+
+    .list:first{
+        margin-left: 0;
+    }
+} 
+
+@media screen and (max-width:400px) and (orientation:landscape){
+    .list{
+        background: blue;
+        width: 350px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:800px){
+    .list{
+        background: pink;
+        width: 750px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1200px){
+    .list{
+        background: grey;
+        width: 1200px;
+        margin: 0;
+        flex-wrap: wrap;
+    }
 }
