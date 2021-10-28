@@ -16,11 +16,13 @@ const DrinkList = () => {
     setDrink(data);
   }
   return (
-    <div className="list">
-      {drink.map((drink, index) => (
-        <DrinkCard data={drink} key={index}/>
-      ))}
-    </div>
+    <main className='container'>
+      <div className="list">
+        {drink.map((drink, index) => (
+          <DrinkCard data={drink} key={index}/>
+        ))}
+      </div>
+    </main>
   )
 }
 

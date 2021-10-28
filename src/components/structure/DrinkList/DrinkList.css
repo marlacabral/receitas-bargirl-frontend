@@ -10,26 +10,34 @@
     
 }
 @media screen and (max-width:400px) and (orientation:portrait) {
-    .list{
-        width:400px;
-        height: 400px;
-        margin: 10px 20px;
-        padding: 0px;
+
+    .container{
+        width: 400px;
+        height: auto;
         display: flex;
-        flex-direction: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+    
+    .list{
+        width: 100%;
+        padding: 0;
+        margin: 8%;
+        justify-content: center;
+        
         
     }
 
-    .list:first{
-        margin-left: 0;
-    }
-} 
+}
 
 @media screen and (max-width:400px) and (orientation:landscape){
     .list{
         background: blue;
-        width: 350px;
+        width: 300px;
+        height: 300px;
         margin: 0;
+
     }
 }
 
