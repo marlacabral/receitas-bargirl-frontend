@@ -42,7 +42,7 @@ const Edit = (props) => {
 
                     <div className="f-edit">
                         <label>Image</label>
-                        <input type="text" id="image" value={drink.image} name="image" placeholder="Write the url of image of drink" onChange={handleFieldsChange} className="image"/>
+                        <input type="image" id="image" value={drink.image} name="image" placeholder="Write the url of image of drink" onChange={handleFieldsChange} className="image"/>
                     </div>
 
                     <div className="f-edit">
@@ -89,7 +89,6 @@ const Edit = (props) => {
                     
                 </form>
             </div>
-     
     )
 };
 
